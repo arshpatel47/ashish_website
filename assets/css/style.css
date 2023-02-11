@@ -2446,6 +2446,10 @@ img {
   }
 }
 @media (max-width: 360px) {
+  #Hiden_Ashish{
+    visibility: hidden;
+  }
+  
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
