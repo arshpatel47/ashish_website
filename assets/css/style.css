@@ -2327,6 +2327,11 @@ img {
   }
 }
 @media (max-width: 480px) {
+  
+  #Hiden_Ashish{
+    visibility: hidden;
+  }
+  
   #mu-header .mu-header-area .mu-header-top-left .mu-top-email {
     font-size: 12px;
     margin-top: 3px;
