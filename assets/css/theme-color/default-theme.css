@@ -62,7 +62,7 @@ Author URI : http://www.markups.io/
 
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
   color: #01bafd;
-  border: 1px solid #01bafd;
+  /* border: 1px solid #01bafd; */
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature a:hover, #mu-features .mu-features-area .mu-features-content .mu-single-feature a:focus {
   color: #01bafd;
