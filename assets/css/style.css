@@ -520,11 +520,21 @@ img {
 @media (max-width: 480px) {
   .AB_YT_VIDEO
   {
+    width: 360px;
+    height: 200px;
+    
+    
+    
+  }
+} 
+/* @media (max-width: 480px) {
+  .AB_YT_VIDEO
+  {
     width: auto;
     margin: auto;
     
   }
-} 
+}  */
 
 @media (max-width: 480px) {
 .img_bio_1{
