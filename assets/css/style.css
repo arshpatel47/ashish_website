@@ -520,8 +520,8 @@ img {
 @media (max-width: 480px) {
   .AB_YT_VIDEO
   {
-    width: 345px;
-    height: 200PX;
+    width: auto;
+    margin: auto;
     
   }
 } 
@@ -700,6 +700,13 @@ img {
   margin: auto;
 }
 @media (max-width: 480px) {
+  .size_set{
+    width: auto;
+    margin: auto;
+  }
+  
+}
+@media (max-width: 980px) {
   .size_set{
     width: auto;
     margin: auto;
@@ -2551,12 +2558,22 @@ img {
   }
 
 }
-
 @media (max-width: 480px) {
   #Hiden_Ashish{
     display: none;
   }
 }
+@media (max-width: 980px) {
+  #Hiden_Ashish{
+    display: none;
+  }
+}
+
+/* @media (max-width: 480px) {
+  #Hiden_Ashish{
+    display: none;
+  }
+} */
 
 /* btn */
 
