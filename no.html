@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <html>
+<head>
+   <title>Program to dispaly the selected options in a dropdown list</title>
+</head>
+<body>
+  
+   <form name="dropForm">
+      <select name="dropSelect" onchange="showDropInfo()">
+         <option value="none">Select Class:</option>
+         <option value="9th">Class 9<sup>th</sup></option>
+         <option value="10th">Class 10<sup>th</sup></option>
+         <option value="11th_arts">Class 11<sup>th</sup> Arts</option>
+         <option value="11th_commerce">Class 11<sup>th</sup> Commerce</option>
+         <option value="11th_science">Class 11<sup>th</sup> Science</option>
+         <option value="12th_arts">Class 12<sup>th</sup> Arts</option>
+         <option value="11th_commerce">Class 12<sup>th</sup> Commerce</option>
+         <option value="12th_science">Class 12<sup>th</sup> Science</option>
+      </select>
+   </form>
+   <p  value="hello"></p>
+   <p id="pF"></p>
+   <p id="pT"></p>
+   <p id="pS"></p>
+   <script>
+      function showDropInfo() {
+         var sT = dropForm.dropSelect;
+         var pF = document.getElementById('pF');
+         var pT = document.getElementById('pT');
+         var pS = document.getElementById('pS');
+        
+         pT.innerHTML = ('Selected text: ' + sT[sT.selectedIndex].text);
+         pS.innerHTML = ('Sorry !This Time Result Not Found');
+      }
+   </script>
+</body>
+</html>
+</body>
+</html>
+
+
+
+
+<!-- End breadcrumb -->
+<section id="mu-course-content">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <div class="mu-course-content-area">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- start course content container -->
+                <div class="mu-course-container mu-course-details">
+                  <div class="row">
+                    <div class="col-md-12">
+                        <div style="text-align: center;">
+
+                            <h2>Results</h2>
+                            <h3>- 10<sup>th</sup> 2022 -</h3>
+                        </div>
+                        <img   src="https://drive.google.com/uc?export=view&id=1WkAeAvpMVAkEFOUGI_8C0h7vHf6uxUMx" width="100%" alt="result_2k22">
+
+                        <div style="text-align: center;">
+
+                          
+                          <h3>- 11<sup>th</sup>&  12<sup>th</sup>Science -</h3>
+                      </div>
+                      <img   src="img_result/ASHISH VIDHYALY OK.jpg" width="100%" alt="result_2k22">
+ 
+
+                    </div>
+                  </div>
+                </div> 
+              
+              </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </section>  -->
