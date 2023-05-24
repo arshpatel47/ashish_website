@@ -260,57 +260,93 @@ select::-ms-expand {
  </section>
 
 
- <!-- End breadcrumb -->
- <section id="mu-course-content">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div class="mu-course-content-area">
+<!-- End breadcrumb -->
+  <section id="mu-course-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-course-content-area">
             <div class="row">
               <div class="col-md-12">
                 <!-- start course content container -->
                 <div class="mu-course-container mu-course-details">
                   <div class="row">
                     <div class="col-md-12">
-                        <div style="text-align: center;">
+                      <div style="text-align: center;">
 
-                          <h2>Results</h2>
-                          <h4 style="color: red;">Letest Result 2023</h4>
-                          <h3>Select Your Class</h3>
-                            
-                            
-                          <br>
+                        <h2>Results</h2>
+                        <h4 style="color: red;">Letest Result 2023</h4>
+                        <h3>Select Your Class</h3>
 
-                          <center>
 
-                            <div class="select" >
-                              <select name="" onchange="showMe(this.value);" >
-                                <option selected disabled>Select Class:</option>
-                            
-                                <option value="10th">Class 10<sup>th 2023 Board Result</sup></option>
-                               
-                               
-                                <option value="12th_arts">Class 12<sup>th</sup> Arts</option>
-                                <option value="12th_commerce">Class 12<sup>th</sup> Commerce</option>
-                                <option value="12th_science">Class 12<sup>th</sup> Science</option>
-                              </select>
-                            </div>
-                            
-                          </center>
-                            
-                          <br>
-                           <!-- 10th result start -->
-                           <div id="10th_table" style="display: none;">
-                            <!-- <img   src="img_result/new result.jpg" width="100%" alt="result_2k22"> -->
-                            <p>This Time Result Not Found !</p>
+
+                        <br>
+
+                        <center>
+
+                          <div class="select">
+                            <select name="" onchange="showMe(this.value);">
+                              <option selected disabled>Select Class:</option>
+
+                              <!-- <option value="10th">Class 10<sup>th</sup></option> -->
+                              <option value="10th_2k23">Class 10<sup>th 2k23 Board Result</sup></option>
+
+                              <option value="12th_arts">Class 12<sup>th</sup> Arts</option>
+                              <option value="12th_commerce">Class 12<sup>th</sup> Commerce</option>
+                              <option value="12th_science">Class 12<sup>th</sup> Science</option>
+                            </select>
                           </div>
 
+                        </center>
 
-                            <!-- 12th result start -->
-                            <div id="12th_arts_table" style="display: none;">
+                        <br>
+                        <!-- 10th result start -->
+                        <div id="10th_table" style="display: none; overflow-x:auto ;">
+                          <table>
+                            <tr>
+                              <th>Company</th>
+                              <th>Contact</th>
+                              <th>Country</th>
+                            </tr>
+                            <tr>
+                              <td>Alfreds Futterkiste</td>
+                              <td>Maria Anders</td>
+                              <td>Germany</td>
+                            </tr>
+                            <tr>
+                              <td>Centro comercial Moctezuma</td>
+                              <td>Francisco Chang</td>
+                              <td>Mexico</td>
+                            </tr>
+                            <tr>
+                              <td>Ernst Handel</td>
+                              <td>Roland Mendel</td>
+                              <td>Austria</td>
+                            </tr>
+                            <tr>
+                              <td>Island Trading</td>
+                              <td>Helen Bennett</td>
+                              <td>UK</td>
+                            </tr>
+                            <tr>
+                              <td>Laughing Bacchus Winecellars</td>
+                              <td>Yoshi Tannamuri</td>
+                              <td>Canada</td>
+                            </tr>
+                            <tr>
+                              <td>Magazzini Alimentari Riuniti</td>
+                              <td>Giovanni Rovelli</td>
+                              <td>Italy</td>
+                            </tr>
+                          </table>
+                        </div>
 
-                              <p>This Time Result Not Found !</p>
-                              <!-- <table>
+
+                        <!-- 12th result start -->
+                        <div id="12th_arts_table" style="display: none;">
+                          <p>This Time Result Not Found !</p>
+
+                          <!-- <table>
                                 <tr>
                                   <th>Company</th>
                                   <th>Contact</th>
@@ -347,12 +383,12 @@ select::-ms-expand {
                                   <td>india!</td>
                                 </tr>
                               </table> -->
-                            </div>
+                        </div>
 
-                            <div id="12th_commerce_table" style="display: none;">
+                        <div id="12th_commerce_table" style="display: none;">
 
-                              <p>This Time Result Not Found !</p>
-                              <!-- <table>
+                          <p>This Time Result Not Found !</p>
+                          <!-- <table>
                                 <tr>
                                   <th>Company</th>
                                   <th>Contact</th>
@@ -389,101 +425,98 @@ select::-ms-expand {
                                   <td>india!</td>
                                 </tr>
                               </table> -->
-                            </div>
+                        </div>
 
 
-                            <!-- 12th sci result start -->
-                            <div id="12th_science_img" style="display: none;">
-                              <!-- <img   src="img_result/new result.jpg" width="100%" alt="result_2k22"> -->
-                              <p>This Time Result Not Found !</p>
-                            </div>
-                            
-                            <!-- 12th End start -->
+                        <div id="12th_science_table" style="display: none;">
+                          <img src="img_result/12th_sci.jpg" width="100%" alt="result_2k22">
+                        </div>
 
-                            
-                            <!-- 10th End start -->
+                        <!-- 12th End start -->
+
+                        <!-- 10th 2k22 result start -->
+                        <div id="10th_2k23_table" style="display: none;">
+                          <img src="img_result/new result.jpg" width="100%" alt="result_2k23">
+                        </div>
+
+                        <!-- 10th End start -->
 
 
-                            <!-- 11th arts result start -->
-                            <div id="11th_arts_table" style="display: none;">
-                              <p>This Time Result Not Found !</p>
-                            </div>
-                            
-                            <!-- 10th End start -->
+                        <!-- 11th arts result start -->
+                        <div id="11th_arts_table" style="display: none;">
+                          <p>This Time Result Not Found !</p>
+                        </div>
 
-                           </div>
-                           
-                           <script>
-                            function showMe(value) {
-                              if(value == "10th")
-                              {
-                              
-                                document.getElementById('10th_table').style.display="block";
-                                document.getElementById('10th_2k22_table').style.display="none";
-                             
-                                document.getElementById('12th_arts_table').style.display="none";
-                                document.getElementById('12th_commerce_table').style.display="none";
-                                document.getElementById('12th_science_table').style.display="none";
-                              }
-                              // if(value == "10th_2k22")
-                              // {
-                              
-                              //   document.getElementById('10th_table').style.display="none";
-                              //   document.getElementById('10th_2k22_table').style.display="block";
-                             
-                              //   document.getElementById('12th_arts_table').style.display="none";
-                              //   document.getElementById('12th_commerce_table').style.display="none";
-                              //   document.getElementById('12th_science_table').style.display="none";
-                              // }
-                              if(value == "12th_arts")
-                              {
-                              
-                                document.getElementById('10th_table').style.display="none";
-                                document.getElementById('10th_2k22_table').style.display="none";
-                             
-                                document.getElementById('12th_arts_table').style.display="block";
-                                document.getElementById('12th_commerce_table').style.display="none";
-                                document.getElementById('12th_science_table').style.display="none";
-                              }
+                        <!-- 10th End start -->
 
-                              if(value == "12th_commerce")
-                              {
-                              
-                                document.getElementById('10th_table').style.display="none";
-                                document.getElementById('10th_2k22_table').style.display="none";
-                             
-                                document.getElementById('12th_arts_table').style.display="none";
-                                document.getElementById('12th_commerce_table').style.display="block";
-                                document.getElementById('12th_science_table').style.display="none";
-                              }
-                              if(value == "12th_science")
-                              {
-                              
-                                document.getElementById('10th_table').style.display="none";
-                                document.getElementById('10th_2k22_table').style.display="none";
-                             
-                                document.getElementById('12th_arts_table').style.display="none";
-                                document.getElementById('12th_commerce_table').style.display="none";
-                                document.getElementById('12th_science_img').style.display="block";
-                              }
-                             
-                            }
-                            
-                           </script>
- 
+                      </div>
+
+                      <script>
+                        function showMe(value) {
+                          if (value == "10th") {
+
+                            document.getElementById('10th_table').style.display = "block";
+                            document.getElementById('10th_2k23_table').style.display = "none";
+
+                            document.getElementById('12th_arts_table').style.display = "none";
+                            document.getElementById('12th_commerce_table').style.display = "none";
+                            document.getElementById('12th_science_table').style.display = "none";
+                          }
+                          if (value == "10th_2k23") {
+
+                            document.getElementById('10th_table').style.display = "none";
+                            document.getElementById('10th_2k23_table').style.display = "block";
+
+                            document.getElementById('12th_arts_table').style.display = "none";
+                            document.getElementById('12th_commerce_table').style.display = "none";
+                            document.getElementById('12th_science_table').style.display = "none";
+                          }
+                          if (value == "12th_arts") {
+
+                            document.getElementById('10th_table').style.display = "none";
+                            document.getElementById('10th_2k23_table').style.display = "none";
+
+                            document.getElementById('12th_arts_table').style.display = "block";
+                            document.getElementById('12th_commerce_table').style.display = "none";
+                            document.getElementById('12th_science_table').style.display = "none";
+                          }
+
+                          if (value == "12th_commerce") {
+
+                            document.getElementById('10th_table').style.display = "none";
+                            document.getElementById('10th_2k23_table').style.display = "none";
+
+                            document.getElementById('12th_arts_table').style.display = "none";
+                            document.getElementById('12th_commerce_table').style.display = "block";
+                            document.getElementById('12th_science_table').style.display = "none";
+                          }
+                          if (value == "12th_science") {
+
+                            document.getElementById('10th_table').style.display = "none";
+                            document.getElementById('10th_2k23_table').style.display = "none";
+
+                            document.getElementById('12th_arts_table').style.display = "none";
+                            document.getElementById('12th_commerce_table').style.display = "none";
+                            document.getElementById('12th_science_table').style.display = "block";
+                          }
+
+                        }
+
+                      </script>
+
 
                     </div>
                   </div>
-                </div> 
-              
+                </div>
+
               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
   <!-- Start footer -->
   <footer id="mu-footer">
