@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- Develope By Patel Arsh -->
 
 
 <url>
@@ -17,21 +17,7 @@
   <lastmod>2023-10-30T13:54:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/school_detail.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/welcome.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/mission_vission.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.ashishvidhyalay.in/trust.html</loc>
   <lastmod>2023-10-30T13:54:55+00:00</lastmod>
@@ -42,31 +28,13 @@
   <lastmod>2023-10-30T13:54:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/faculty.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.ashishvidhyalay.in/alumni.html</loc>
   <lastmod>2023-10-30T13:54:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/learnig_system.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/result.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/gallery.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://www.ashishvidhyalay.in/contact.html</loc>
   <lastmod>2023-10-30T13:54:55+00:00</lastmod>
@@ -78,19 +46,9 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.ashishvidhyalay.in/list_of_holidays.html</loc>
+  <loc>https://lms-avk.spaceon.in</loc>
   <lastmod>2023-10-30T13:54:55+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/std_10.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.ashishvidhyalay.in/std_9.html</loc>
-  <lastmod>2023-10-30T13:54:55+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
